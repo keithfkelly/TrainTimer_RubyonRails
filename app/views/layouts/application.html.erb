@@ -31,7 +31,7 @@
 
 				<%= yield %>
 				<%if user_signed_in?%>
-				<div>
+				<div class="bottom">
 					Signed in as <b><%= current_user.email%></b>(<%= link_to 'Sign Out', destroy_user_session_path,:method=>:delete%>)
 				</div>
 				<%else%>
@@ -40,7 +40,7 @@
 			</div>
 		</div>
 		<div id="footer">
-						<p class="notice">
+			<p class="notice">
 				<%= notice %>
 			</p>
 			<p class="alert">
