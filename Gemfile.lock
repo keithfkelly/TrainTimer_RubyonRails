@@ -1,7 +1,6 @@
 GEM
   remote: https://rubygems.org/
   specs:
-    ExtComms (0.0.1)
       twilio-ruby
     actionmailer (3.2.12)
       actionpack (= 3.2.12)
