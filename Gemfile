@@ -3,11 +3,13 @@ source 'https://rubygems.org'
 gem 'rails', '3.2.12'
 gem 'ExtComms','0.0.1'
 gem 'libxml-ruby','2.6.0'
+gem 'devise','2.1.2'
 
 # Bundle edge Rails instead:
 # gem 'rails', :git => 'https://github.com/keithfkelly/ExtComms.git'
 
 gem 'pg'
+#gem 'sqlite3'
 
 
 # Gems used only for assets and not required

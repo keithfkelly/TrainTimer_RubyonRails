@@ -1,33 +1,51 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <title>TrainTimer - Getting you there!</title>
-    <%= stylesheet_link_tag    "application", :media => "all" %>
-    <%= javascript_include_tag "application" %>
-    <%= csrf_meta_tags %>
-  </head>
-  <body>
-    <div id="header">
-      <div id="logo">
-        <h1><a href="/">TrainTimer</a></h1>
-        <h2>Getting You There!</h2>
-        <h2>
-          <br />
-          <a href="about">About the Project</a>
-        </h2>
-      </div>
-      <div id="menu">
-        <br /> Cloud Computing <br /> Keith Kelly<br /> BSCHE4<br />
-        09104844
-      </div>
-    </div>
-    <div id="content">
-      <div id="colOne">
-        <%= yield %>
-      </div>
-    </div>
-    <div id="footer">
-      <p></p>
-    </div>
-  </body>
+	<head>
+		<title>TrainTimer - Getting you there!</title>
+		<%= stylesheet_link_tag    "application", :media => "all" %>
+		<%= javascript_include_tag "application" %>
+		<%= csrf_meta_tags %>
+	</head>
+	<body>
+		<div id="header">
+			<div id="logo">
+				<h1><a href="/">TrainTimer</a></h1>
+				<h2>Getting You There!</h2>
+				<h2>
+				<br />
+				<a href="about">About the Project</a></h2>
+			</div>
+			<div id="menu">
+				<br />
+				Cloud Computing
+				<br />
+				Keith Kelly
+				<br />
+				BSCHE4
+				<br />
+				09104844
+			</div>
+		</div>
+		<div id="content">
+			<div id="colOne">
+
+				<%= yield %>
+				<%if user_signed_in?%>
+				<div>
+					Signed in as <b><%= current_user.email%></b>(<%= link_to 'Sign Out', destroy_user_session_path,:method=>:delete%>)
+				</div>
+				<%else%>
+				<%= link_to 'Register', new_user_registration_path%> or <%= link_to 'Sign in', new_user_session_path%>
+				<%end%>
+			</div>
+		</div>
+		<div id="footer">
+						<p class="notice">
+				<%= notice %>
+			</p>
+			<p class="alert">
+				<%= alert %>
+			</p>
+		</div>
+	</body>
 </html>

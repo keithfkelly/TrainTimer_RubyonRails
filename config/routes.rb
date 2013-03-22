@@ -1,6 +1,8 @@
 RailsTrainTimer::Application.routes.draw do
   
 
+  devise_for :users
+
   get "site/about"
 
   get "site/home"
