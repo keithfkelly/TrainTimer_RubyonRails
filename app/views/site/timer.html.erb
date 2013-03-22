@@ -2,7 +2,7 @@
   <b>
     Select Station:
     <br />
-    <%=select_tag :name, options_for_select(@stations.collect{|s|[s.name,s.code]})%>
+    <%=select_tag :name, options_for_select(@stations.collect{|s|[s.name,s.code],current_user.fav})%>
     <br />
     Enter Phone Number:
     <%=text_field_tag :phone%>
