@@ -37,11 +37,11 @@ class SiteController < ApplicationController
     payload = "Trains due at your Selected Station: "
     if commtype == '0'
       for i in 0..size
-        if payload.size<130
+        if payload.size<110
           payload = "#{payload} #{i+1}. Train to #{dests.at(i)} due in #{due.at(i)} Minutes."
         end
-        ExtComms::ExtComms.new.sendSMS('+353851387870',payload)
       end
+      ExtComms::ExtComms.new.sendSMS('+353851387870',payload)
     elsif commtype == '1'
       payload ="Welcome to Train Timer</Say>"
       for i in 0..size
