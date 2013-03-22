@@ -28531,3 +28531,559 @@ Served asset /stations.js - 304 Not Modified (0ms)
 
 Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-03-22 15:14:53 +0000
 Served asset /application.js - 304 Not Modified (0ms)
+Connecting to database specified by database.yml
+Connecting to database specified by database.yml
+Connecting to database specified by database.yml
+
+
+Started GET "/" for 127.0.0.1 at 2013-03-22 16:41:34 +0000
+Processing by SiteController#home as HTML
+  [1m[36mUser Load (0.0ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = 1 LIMIT 1[0m
+  Rendered site/home.html.erb within layouts/application (52.0ms)
+Compiled scaffolds.css  (35ms)  (pid 12656)
+Compiled application.css  (3ms)  (pid 12656)
+Completed 200 OK in 160ms (Views: 158.0ms | ActiveRecord: 2.0ms)
+
+
+Started GET "/assets/stations.css?body=1" for 127.0.0.1 at 2013-03-22 16:41:34 +0000
+Served asset /stations.css - 304 Not Modified (4ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-03-22 16:41:34 +0000
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/site.css?body=1" for 127.0.0.1 at 2013-03-22 16:41:34 +0000
+Served asset /site.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2013-03-22 16:41:34 +0000
+Served asset /scaffolds.css - 200 OK (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-03-22 16:41:34 +0000
+Served asset /jquery.js - 304 Not Modified (12ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-03-22 16:41:34 +0000
+Served asset /application.css - 304 Not Modified (4ms)
+
+
+Started GET "/assets/site.js?body=1" for 127.0.0.1 at 2013-03-22 16:41:34 +0000
+Served asset /site.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-03-22 16:41:34 +0000
+Served asset /application.js - 304 Not Modified (13ms)
+
+
+Started GET "/assets/stations.js?body=1" for 127.0.0.1 at 2013-03-22 16:41:34 +0000
+Served asset /stations.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/images/img1.gif" for 127.0.0.1 at 2013-03-22 16:41:34 +0000
+Served asset /images/img1.gif - 304 Not Modified (1ms)
+
+
+Started GET "/assets/images/img2.gif" for 127.0.0.1 at 2013-03-22 16:41:35 +0000
+Served asset /images/img2.gif - 304 Not Modified (5ms)
+
+
+Started GET "/assets/images/img3.gif" for 127.0.0.1 at 2013-03-22 16:41:35 +0000
+Served asset /images/img3.gif - 304 Not Modified (1ms)
+
+
+Started GET "/assets/images/img5.gif" for 127.0.0.1 at 2013-03-22 16:41:35 +0000
+Served asset /images/img5.gif - 304 Not Modified (0ms)
+
+
+Started GET "/assets/images/img8.gif" for 127.0.0.1 at 2013-03-22 16:41:35 +0000
+Served asset /images/img8.gif - 304 Not Modified (0ms)
+
+
+Started GET "/timer" for 127.0.0.1 at 2013-03-22 16:41:35 +0000
+Processing by SiteController#timer as HTML
+  [1m[35mStation Load (1.0ms)[0m  SELECT "stations".* FROM "stations" 
+  Rendered site/timer.html.erb within layouts/application (2.0ms)
+  [1m[36mUser Load (0.0ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = 1 LIMIT 1[0m
+Completed 200 OK in 26ms (Views: 10.0ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-03-22 16:41:35 +0000
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/site.css?body=1" for 127.0.0.1 at 2013-03-22 16:41:35 +0000
+Served asset /site.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/stations.css?body=1" for 127.0.0.1 at 2013-03-22 16:41:35 +0000
+Served asset /stations.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-03-22 16:41:35 +0000
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-03-22 16:41:35 +0000
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/site.js?body=1" for 127.0.0.1 at 2013-03-22 16:41:35 +0000
+Served asset /site.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/stations.js?body=1" for 127.0.0.1 at 2013-03-22 16:41:35 +0000
+Served asset /stations.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-03-22 16:41:36 +0000
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/timer" for 127.0.0.1 at 2013-03-22 16:41:36 +0000
+Processing by SiteController#timer as HTML
+  [1m[35mStation Load (0.0ms)[0m  SELECT "stations".* FROM "stations" 
+  Rendered site/timer.html.erb within layouts/application (0.0ms)
+  [1m[36mUser Load (0.0ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = 1 LIMIT 1[0m
+Completed 200 OK in 11ms (Views: 8.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-03-22 16:41:36 +0000
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2013-03-22 16:41:36 +0000
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/site.css?body=1" for 127.0.0.1 at 2013-03-22 16:41:36 +0000
+Served asset /site.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/stations.css?body=1" for 127.0.0.1 at 2013-03-22 16:41:36 +0000
+Served asset /stations.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-03-22 16:41:36 +0000
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-03-22 16:41:36 +0000
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/site.js?body=1" for 127.0.0.1 at 2013-03-22 16:41:36 +0000
+Served asset /site.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/stations.js?body=1" for 127.0.0.1 at 2013-03-22 16:41:37 +0000
+Served asset /stations.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-03-22 16:41:37 +0000
+Served asset /application.js - 304 Not Modified (1ms)
+
+
+Started GET "/timer" for 127.0.0.1 at 2013-03-22 16:41:37 +0000
+Processing by SiteController#timer as HTML
+  [1m[35mStation Load (0.0ms)[0m  SELECT "stations".* FROM "stations" 
+  Rendered site/timer.html.erb within layouts/application (0.0ms)
+  [1m[36mUser Load (0.0ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = 1 LIMIT 1[0m
+Completed 200 OK in 8ms (Views: 6.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-03-22 16:41:37 +0000
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-03-22 16:41:37 +0000
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2013-03-22 16:41:37 +0000
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/site.css?body=1" for 127.0.0.1 at 2013-03-22 16:41:37 +0000
+Served asset /site.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-03-22 16:41:37 +0000
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/stations.css?body=1" for 127.0.0.1 at 2013-03-22 16:41:37 +0000
+Served asset /stations.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/site.js?body=1" for 127.0.0.1 at 2013-03-22 16:41:37 +0000
+Served asset /site.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/stations.js?body=1" for 127.0.0.1 at 2013-03-22 16:41:37 +0000
+Served asset /stations.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-03-22 16:41:37 +0000
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/timer" for 127.0.0.1 at 2013-03-22 16:41:38 +0000
+Processing by SiteController#timer as HTML
+  [1m[35mStation Load (0.0ms)[0m  SELECT "stations".* FROM "stations" 
+  Rendered site/timer.html.erb within layouts/application (0.0ms)
+  [1m[36mUser Load (0.0ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = 1 LIMIT 1[0m
+Completed 200 OK in 8ms (Views: 6.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-03-22 16:41:38 +0000
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2013-03-22 16:41:38 +0000
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/site.css?body=1" for 127.0.0.1 at 2013-03-22 16:41:38 +0000
+Served asset /site.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/stations.css?body=1" for 127.0.0.1 at 2013-03-22 16:41:38 +0000
+Served asset /stations.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-03-22 16:41:38 +0000
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-03-22 16:41:38 +0000
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/site.js?body=1" for 127.0.0.1 at 2013-03-22 16:41:38 +0000
+Served asset /site.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/stations.js?body=1" for 127.0.0.1 at 2013-03-22 16:41:38 +0000
+Served asset /stations.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-03-22 16:41:38 +0000
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/timer" for 127.0.0.1 at 2013-03-22 16:41:39 +0000
+Processing by SiteController#timer as HTML
+  [1m[35mStation Load (1.0ms)[0m  SELECT "stations".* FROM "stations" 
+  Rendered site/timer.html.erb within layouts/application (1.0ms)
+  [1m[36mUser Load (0.0ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = 1 LIMIT 1[0m
+Completed 200 OK in 10ms (Views: 8.0ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-03-22 16:41:39 +0000
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2013-03-22 16:41:39 +0000
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/stations.css?body=1" for 127.0.0.1 at 2013-03-22 16:41:39 +0000
+Served asset /stations.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/site.css?body=1" for 127.0.0.1 at 2013-03-22 16:41:39 +0000
+Served asset /site.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-03-22 16:41:39 +0000
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-03-22 16:41:39 +0000
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/site.js?body=1" for 127.0.0.1 at 2013-03-22 16:41:39 +0000
+Served asset /site.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/stations.js?body=1" for 127.0.0.1 at 2013-03-22 16:41:39 +0000
+Served asset /stations.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-03-22 16:41:39 +0000
+Served asset /application.js - 304 Not Modified (1ms)
+
+
+Started GET "/timer" for 127.0.0.1 at 2013-03-22 16:41:40 +0000
+Processing by SiteController#timer as HTML
+  [1m[35mStation Load (1.0ms)[0m  SELECT "stations".* FROM "stations" 
+  Rendered site/timer.html.erb within layouts/application (1.0ms)
+  [1m[36mUser Load (0.0ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = 1 LIMIT 1[0m
+Completed 200 OK in 8ms (Views: 7.0ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-03-22 16:41:40 +0000
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2013-03-22 16:41:40 +0000
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/site.css?body=1" for 127.0.0.1 at 2013-03-22 16:41:40 +0000
+Served asset /site.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/stations.css?body=1" for 127.0.0.1 at 2013-03-22 16:41:40 +0000
+Served asset /stations.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-03-22 16:41:40 +0000
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-03-22 16:41:40 +0000
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/site.js?body=1" for 127.0.0.1 at 2013-03-22 16:41:40 +0000
+Served asset /site.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-03-22 16:41:40 +0000
+Served asset /application.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/stations.js?body=1" for 127.0.0.1 at 2013-03-22 16:41:40 +0000
+Served asset /stations.js - 304 Not Modified (0ms)
+
+
+Started GET "/timer" for 127.0.0.1 at 2013-03-22 16:41:41 +0000
+Processing by SiteController#timer as HTML
+  [1m[35mStation Load (0.0ms)[0m  SELECT "stations".* FROM "stations" 
+  Rendered site/timer.html.erb within layouts/application (0.0ms)
+  [1m[36mUser Load (0.0ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = 1 LIMIT 1[0m
+Completed 200 OK in 7ms (Views: 6.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-03-22 16:41:41 +0000
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2013-03-22 16:41:41 +0000
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/site.css?body=1" for 127.0.0.1 at 2013-03-22 16:41:41 +0000
+Served asset /site.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/stations.css?body=1" for 127.0.0.1 at 2013-03-22 16:41:41 +0000
+Served asset /stations.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-03-22 16:41:41 +0000
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-03-22 16:41:41 +0000
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/site.js?body=1" for 127.0.0.1 at 2013-03-22 16:41:41 +0000
+Served asset /site.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/stations.js?body=1" for 127.0.0.1 at 2013-03-22 16:41:41 +0000
+Served asset /stations.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-03-22 16:41:41 +0000
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/timer" for 127.0.0.1 at 2013-03-22 16:41:42 +0000
+Processing by SiteController#timer as HTML
+  [1m[35mStation Load (0.0ms)[0m  SELECT "stations".* FROM "stations" 
+  Rendered site/timer.html.erb within layouts/application (1.0ms)
+  [1m[36mUser Load (0.0ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = 1 LIMIT 1[0m
+Completed 200 OK in 16ms (Views: 14.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-03-22 16:41:42 +0000
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2013-03-22 16:41:42 +0000
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/site.css?body=1" for 127.0.0.1 at 2013-03-22 16:41:42 +0000
+Served asset /site.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/stations.css?body=1" for 127.0.0.1 at 2013-03-22 16:41:42 +0000
+Served asset /stations.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-03-22 16:41:42 +0000
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-03-22 16:41:42 +0000
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/site.js?body=1" for 127.0.0.1 at 2013-03-22 16:41:42 +0000
+Served asset /site.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-03-22 16:41:43 +0000
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/stations.js?body=1" for 127.0.0.1 at 2013-03-22 16:41:43 +0000
+Served asset /stations.js - 304 Not Modified (0ms)
+
+
+Started GET "/timer" for 127.0.0.1 at 2013-03-22 16:41:43 +0000
+Processing by SiteController#timer as HTML
+  [1m[35mStation Load (0.0ms)[0m  SELECT "stations".* FROM "stations" 
+  Rendered site/timer.html.erb within layouts/application (2.0ms)
+  [1m[36mUser Load (0.0ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = 1 LIMIT 1[0m
+Completed 200 OK in 17ms (Views: 14.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-03-22 16:41:43 +0000
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2013-03-22 16:41:43 +0000
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-03-22 16:41:43 +0000
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-03-22 16:41:43 +0000
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/stations.css?body=1" for 127.0.0.1 at 2013-03-22 16:41:43 +0000
+Served asset /stations.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/site.css?body=1" for 127.0.0.1 at 2013-03-22 16:41:43 +0000
+Served asset /site.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/site.js?body=1" for 127.0.0.1 at 2013-03-22 16:41:43 +0000
+Served asset /site.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/stations.js?body=1" for 127.0.0.1 at 2013-03-22 16:41:43 +0000
+Served asset /stations.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-03-22 16:41:44 +0000
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/timer" for 127.0.0.1 at 2013-03-22 16:41:44 +0000
+Processing by SiteController#timer as HTML
+  [1m[35mStation Load (0.0ms)[0m  SELECT "stations".* FROM "stations" 
+  Rendered site/timer.html.erb within layouts/application (1.0ms)
+  [1m[36mUser Load (0.0ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = 1 LIMIT 1[0m
+Completed 200 OK in 12ms (Views: 9.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-03-22 16:41:44 +0000
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2013-03-22 16:41:44 +0000
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/site.css?body=1" for 127.0.0.1 at 2013-03-22 16:41:44 +0000
+Served asset /site.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/stations.css?body=1" for 127.0.0.1 at 2013-03-22 16:41:44 +0000
+Served asset /stations.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-03-22 16:41:44 +0000
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-03-22 16:41:44 +0000
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/site.js?body=1" for 127.0.0.1 at 2013-03-22 16:41:44 +0000
+Served asset /site.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/stations.js?body=1" for 127.0.0.1 at 2013-03-22 16:41:45 +0000
+Served asset /stations.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-03-22 16:41:45 +0000
+Served asset /application.js - 304 Not Modified (1ms)
+
+
+Started DELETE "/users/sign_out" for 127.0.0.1 at 2013-03-22 16:41:45 +0000
+Processing by Devise::SessionsController#destroy as HTML
+  Parameters: {"authenticity_token"=>"pD80hjlxjDpSA2z6oCasbWiRqmBDCboQIKjuALwZs2g="}
+  [1m[35mUser Load (0.0ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = 1 LIMIT 1
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  commit transaction
+Redirected to http://localhost:3000/
+Completed 302 Found in 21ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-03-22 16:41:45 +0000
+Processing by SiteController#home as HTML
+  Rendered site/home.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 6ms (Views: 6.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-03-22 16:41:45 +0000
+Served asset /application.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2013-03-22 16:41:45 +0000
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/site.css?body=1" for 127.0.0.1 at 2013-03-22 16:41:45 +0000
+Served asset /site.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/stations.css?body=1" for 127.0.0.1 at 2013-03-22 16:41:45 +0000
+Served asset /stations.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-03-22 16:41:45 +0000
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-03-22 16:41:45 +0000
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/site.js?body=1" for 127.0.0.1 at 2013-03-22 16:41:45 +0000
+Served asset /site.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/stations.js?body=1" for 127.0.0.1 at 2013-03-22 16:41:45 +0000
+Served asset /stations.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-03-22 16:41:46 +0000
+Served asset /application.js - 304 Not Modified (1ms)
