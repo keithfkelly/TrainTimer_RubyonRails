@@ -9,7 +9,7 @@ gem 'devise','2.1.2'
 # gem 'rails', :git => 'https://github.com/keithfkelly/ExtComms.git'
 
 gem 'pg'
-gem 'sqlite3'
+#gem 'sqlite3'
 
 
 # Gems used only for assets and not required
