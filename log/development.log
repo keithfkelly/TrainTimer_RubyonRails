@@ -27773,3 +27773,109 @@ Served asset /stations.js - 304 Not Modified (0ms)
 
 Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-03-22 00:06:12 +0000
 Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-03-22 01:04:26 +0000
+Connecting to database specified by database.yml
+Processing by SiteController#home as HTML
+  Rendered site/home.html.erb within layouts/application (2.0ms)
+Completed 200 OK in 44ms (Views: 44.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/stations.css?body=1" for 127.0.0.1 at 2013-03-22 01:04:26 +0000
+Served asset /stations.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-03-22 01:04:26 +0000
+Served asset /jquery.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2013-03-22 01:04:26 +0000
+Served asset /scaffolds.css - 304 Not Modified (4ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-03-22 01:04:26 +0000
+Served asset /application.css - 304 Not Modified (3ms)
+
+
+Started GET "/assets/site.css?body=1" for 127.0.0.1 at 2013-03-22 01:04:26 +0000
+Served asset /site.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-03-22 01:04:27 +0000
+Served asset /jquery_ujs.js - 304 Not Modified (3ms)
+
+
+Started GET "/assets/site.js?body=1" for 127.0.0.1 at 2013-03-22 01:04:27 +0000
+Served asset /site.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/stations.js?body=1" for 127.0.0.1 at 2013-03-22 01:04:27 +0000
+Served asset /stations.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-03-22 01:04:27 +0000
+Served asset /application.js - 304 Not Modified (13ms)
+
+
+Started GET "/assets/images/img1.gif" for 127.0.0.1 at 2013-03-22 01:04:27 +0000
+Served asset /images/img1.gif - 304 Not Modified (6ms)
+
+
+Started GET "/assets/images/img2.gif" for 127.0.0.1 at 2013-03-22 01:04:27 +0000
+Served asset /images/img2.gif - 304 Not Modified (2ms)
+
+
+Started GET "/assets/images/img3.gif" for 127.0.0.1 at 2013-03-22 01:04:27 +0000
+Served asset /images/img3.gif - 304 Not Modified (3ms)
+
+
+Started GET "/assets/images/img5.gif" for 127.0.0.1 at 2013-03-22 01:04:27 +0000
+Served asset /images/img5.gif - 304 Not Modified (3ms)
+
+
+Started GET "/assets/images/img8.gif" for 127.0.0.1 at 2013-03-22 01:04:27 +0000
+Served asset /images/img8.gif - 304 Not Modified (1ms)
+
+
+Started GET "/timer" for 127.0.0.1 at 2013-03-22 01:04:34 +0000
+Processing by SiteController#timer as HTML
+  [1m[36mStation Load (0.0ms)[0m  [1mSELECT "stations".* FROM "stations" [0m
+  Rendered site/timer.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 51ms (Views: 15.0ms | ActiveRecord: 2.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-03-22 01:04:34 +0000
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2013-03-22 01:04:34 +0000
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/site.css?body=1" for 127.0.0.1 at 2013-03-22 01:04:34 +0000
+Served asset /site.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/stations.css?body=1" for 127.0.0.1 at 2013-03-22 01:04:34 +0000
+Served asset /stations.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-03-22 01:04:34 +0000
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-03-22 01:04:34 +0000
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/site.js?body=1" for 127.0.0.1 at 2013-03-22 01:04:34 +0000
+Served asset /site.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/stations.js?body=1" for 127.0.0.1 at 2013-03-22 01:04:34 +0000
+Served asset /stations.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-03-22 01:04:34 +0000
+Served asset /application.js - 304 Not Modified (0ms)
