@@ -1,7 +1,7 @@
 source 'https://rubygems.org'
 
 gem 'rails', '3.2.12'
-gem 'ExtComms','0.0.1'
+gem 'ExtComms', :git=> 'git://github.com/keithfkelly/ExtComms.git'
 gem 'libxml-ruby','2.6.0'
 
 # Bundle edge Rails instead:
