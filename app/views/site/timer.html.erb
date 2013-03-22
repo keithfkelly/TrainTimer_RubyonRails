@@ -1,0 +1,15 @@
+<%=form_tag "/dotimer" do%>
+  <b>
+    Select Station:
+    <br />
+    <%=select_tag :name, options_for_select(@stations.collect{|s|[s.name,s.code]})%>
+    <br />
+    Enter Phone Number:
+    <%=text_field_tag :phone%>
+    <br />
+    Receive SMS <%=radio_button_tag :comms,'0'%>
+    Receive Call<%=radio_button_tag :comms,'1'%>
+  </b>
+  <br />
+  <%=submit_tag "Get Times"%>
+  <%end%>

@@ -1,0 +1,64 @@
+<h1 id="headings">The Project:</h1>
+			<p style="padding-left: 10%; padding-right: 5%">You are required
+				to create an application that will be deployed onto a PaaS provider
+				such as Azure, OpenShift, Heroku that integrates into two existing
+				web services.</p>
+			<hr />
+			<h1 id="headings">The Web Services:</h1>
+			<h2>1. Irish Rail Realtime API -</h2>
+			<p style="padding-left: 10%; padding-right: 5%">Irish Rail
+				provide up to date Train and Station information by means of a rest
+				based Web Service. This was used to gather data to provide to
+				consumers.</p>
+			<br />
+			<h2>2. Twilio Cloud Communications -</h2>
+			<p style="padding-left: 10%; padding-right: 5%">Twilio was the
+				second API/web service used. Twilio is a platform for generating
+				both SMS messages and Phone calls. They offer multiple methods of
+				generation but the one that was harnessed for this project was the
+				Twilio Java Rest Client which allows for the API calls to be made
+				from within Java applications.
+			<p>
+			<hr />
+			<br />
+			<h1 id="headings">The Technology:</h1>
+			<h2>Development Environment -</h2>
+			<p style="padding-left: 10%; padding-right: 5%">The Development
+				environment chosen for this project started as Openshift. After some
+				consideration, as I was executing a parallel project on this
+				technology, I decided to opt for Heroku as the PaaS provider
+				instead. The application was developed in Eclipse Juno and includes
+				a selection of libraries, the application server used is Tomcat 7
+				and the JRE is 1.6 (Heroku Default)</p>
+			<h2>Structure -</h2>
+			<p style="padding-left: 10%; padding-right: 5%">This web
+				application is driven by JSP as the front end and servlets doing the
+				background processing. A number of key functions are handed off to
+				other java classes.</p>
+			<hr />
+			<h1 id="headings">Conclusion:</h1>
+			<p style="padding-left: 10%; padding-right: 5%">As I started this
+				project, I was still fairly unsure of Web Application development,
+				and, the operational nature of PaaS providers available, their
+				operating restrictions and the way that applications are deployed to
+				them. I feel that this project has increased my understanding of
+				these technologies, along with Maven (A Build tool) and has garnered
+				me a better understanding of the Eclipse IDE. I encountered a number
+				of problems along the way, which I will briefly outline below:</p>
+			<ul>
+				<li>No writable, publicly accessible storage on Heroku.</li>
+				<li>The Twilio Call factory requiring a static XML script page
+					<br />for Generated calls
+				</li>
+				<li>Could only test the application during Train operating
+					hours</li>
+			</ul>
+			<p style="padding-left: 10%; padding-right: 5%">Overall, this was
+				an interesting and enjoyable project to complete and I feel a good
+				learning exercise.</p>
+			<p style="padding-left: 67%; padding-right: 5%; font-size: 22px">-Keith
+				Kelly</p>
+			<br />
+			<hr />
+			<br />
+
