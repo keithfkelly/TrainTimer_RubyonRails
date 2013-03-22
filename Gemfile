@@ -7,7 +7,6 @@ gem 'libxml-ruby','2.6.0'
 # Bundle edge Rails instead:
 # gem 'rails', :git => 'https://github.com/keithfkelly/ExtComms.git'
 
-gem 'sqlite3'
 gem 'pg'
 
 
