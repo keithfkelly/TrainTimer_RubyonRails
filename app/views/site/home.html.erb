@@ -1,4 +1,7 @@
+<%if user_signed_in?%>
+<meta http-equiv="REFRESH" content="0;url=/timer">
+<%end%>
 <h1>Welcome to Train Timer</h1>
 <%if user_signed_in?%>
-	Signed In!
-	<%end%>
+Signed In!
+<%end%>
