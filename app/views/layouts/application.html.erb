@@ -30,11 +30,20 @@
 			<div id="colOne">
 
 				<%= yield %>
+				<br />
+				<br />
+			</div>
+			<div id="colTwo">
+				<div class="bottom">
+					<br />
 				<%if user_signed_in?%>
-					Signed in as <b><%= current_user.email%></b>(<%= link_to 'Sign Out', destroy_user_session_path,:method=>:delete%>)
+					Signed in as <b><%= current_user.email%>  </b><%= link_to 'Sign Out', destroy_user_session_path,:method=>:delete%>
 				<%else%>
-				<%= link_to 'Register', new_user_registration_path%> or <%= link_to 'Sign in', new_user_session_path%> <%= link_to 'Continue without Loggin In', {:controller => "site", :action => "timer"}%>
+				<%= link_to 'Register', new_user_registration_path%>      <%=link_to 'Continue to Timer', '/timer'%>     <%= link_to 'Sign in', new_user_session_path%> 
 				<%end%>
+				<br />
+				</div>
+				 
 			</div>
 		</div>
 		<div id="footer">

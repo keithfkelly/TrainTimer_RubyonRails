@@ -113,6 +113,7 @@ p, ul, ol, blockquote {
 #colOne {
 	margin: 0 15px;
 	background: url(images/img5.gif) repeat-x;
+	text-align:center;
 }
 
 #colOne .post {
@@ -182,4 +183,35 @@ p, ul, ol, blockquote {
 {
 text-align:center;
 color:white;
+text-shadow: 1px 1px #000000;
+color: #b2d22a;
+}
+
+.toptext{
+  color:white;
+  text-shadow: 1px 3px #79913a;
+}
+
+.bottom a {
+    padding: 3px 5px;
+    background: #b2d22a;
+    color: #FFF;
+    text-decoration: none;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    border-radius: 4px;
+    border: solid 1px #67C127;
+    -webkit-box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.4), 0 1px 1px rgba(0, 0, 0, 0.2);
+    -moz-box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.4), 0 1px 1px rgba(0, 0, 0, 0.2);
+    box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.4), 0 1px 1px rgba(0, 0, 0, 0.2);
+    -webkit-transition-duration: 0.2s;
+    -moz-transition-duration: 0.2s;
+    transition-duration: 0.2s;
+    text-shadow: 1px 1px #000000;
+}
+
+.bottom a:hover, .bottom a:focus {
+    background: #67C127;
+    border: solid 1px #b2d22a;
+
 }
