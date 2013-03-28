@@ -10,6 +10,7 @@ gem 'devise','2.1.2'
 
 gem 'pg'
 #gem 'sqlite3'
+gem 'activerecord-postgresql-adapter'
 
 
 # Gems used only for assets and not required
