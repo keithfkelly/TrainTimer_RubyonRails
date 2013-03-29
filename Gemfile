@@ -8,9 +8,7 @@ gem 'devise','2.1.2'
 # Bundle edge Rails instead:
 # gem 'rails', :git => 'https://github.com/keithfkelly/ExtComms.git'
 
-gem 'pg'
-#gem 'sqlite3'
-gem 'activerecord-postgresql-adapter'
+gem 'ruby-pg'
 
 
 # Gems used only for assets and not required
